@@ -2,13 +2,11 @@ import { remark } from 'remark';
 import html from 'remark-html';
 import slug from 'remark-slug';
 import Container from '../components/container';
-import Header from '../components/header';
 import { TableOfContents } from '../components/toc';
 
 export default function WhitePaper({ markdownString }) {
   return (
     <Container>
-      <Header />
       <div className="flex">
         <TableOfContents/>
         <div className="markdown max-w-screen-lg ml-auto" dangerouslySetInnerHTML={{ __html: markdownString }}>

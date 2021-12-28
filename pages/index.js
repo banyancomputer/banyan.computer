@@ -1,12 +1,10 @@
 import Container from '../components/container'
-import Header from '../components/header'
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css'
 
 export default function Home() {
   return (
       <Container>
-      <Header />
       <p className="text-4xl text-center mb-64 mt-48">The Alexandria Trust is a <Tippy content="An organization represented by rules encoded in a computer program, owned by its members."><span className="decoration-dotted underline decoration-yellow cursor-help">decentralized autonomous organization</span></Tippy> dedicated to <span className="text-yellow">storing humanity's knowledge forever</span>.</p>
       <h2>Data provenance for the next century.<Tippy content="And beyond?"><sup className="cursor-default">+</sup></Tippy></h2>
       <div className="flex row justify-between mt-16 mb-32">
