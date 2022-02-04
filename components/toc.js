@@ -54,7 +54,7 @@ const Headings = ({ headings, activeId }) => (
   <ul>
     {headings.map((heading) => (
       <li key={heading.id}>
-        <a className={heading.id === activeId ? "text-yellow" : "text-white"} href={`#${heading.id}`}>
+        <a className={heading.id === activeId ? "text-green" : "text-black"} href={`#${heading.id}`}>
           {heading.title}
         </a>
         {heading.items.length > 0 && (
