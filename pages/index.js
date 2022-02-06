@@ -26,7 +26,7 @@ export default function Home() {
       <p className="text-center">Building on...</p>
       <div className="flex row justify-between my-16 mx-auto w-full max-w-prose">
         <Image className="max-h-24" src="/filecoin.svg" height="96" width="96"/>
-        <Image className="max-h-24" src="/compound.svg" height="96" width="96"/>
+        <Image className="max-h-24" src="/ipfs.svg" height="96" width="96"/>
         <Image className="max-h-24" src="/yfi.svg" height="96" width="96"/>
       </div>
       <div className="flex row justify-between my-16 mx-auto w-full max-w-prose">
