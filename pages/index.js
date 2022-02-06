@@ -5,10 +5,10 @@ export default function Home() {
   return (
     <Container>
       <div className="rounded-xl p-8 flex justify-between flex-col text-white relative drop-shadow-lg bg-blend-darken mb-32" style={{ background: "rgba(0,0,0,0.25) url('/banyan.jpg') center/cover" }}>
-        <p className="text-6xl mb-12 flex-shrink-0 z-20">Permanent storage, <span className="underline decoration-purple">unchained</span>.</p>
+        <p className="text-4xl lg:text-6xl mb-12 flex-shrink-0 z-20">Permanent storage, <span className="underline decoration-purple">unchained</span>.</p>
         <p className="text-xl mt-64 max-w-prose z-20">An on-chain broker that stores files to the distributed cloud from any chain you want, under incentives to <span className="text-purple">make them last forever</span>.</p>
       </div>
-      <h2>Fund the preservation of files  , alone or with others.</h2>
+      <h2>Fund the preservation of files, alone or with others.</h2>
       <div className="flex flex-col lg:flex-row justify-between mt-16 mb-32">
         <p className="w-full pb-8 lg:pb-0 lg:pr-12 text-justify">Place assets into a Banyan DAO-controlled trust contract for that file and provide a copy of the files.</p>
         <p className="w-full pb-8 lg:pb-0 lg:pr-12 text-justify">Banyan DAO puts extra assets under management, in a combination of yield-bearing stablecoin strategies for low-risk returns and FIL/BTC perpetuals to hedge against large crypto market moves. This gets the most storage for your money.</p>
@@ -36,11 +36,11 @@ export default function Home() {
       </div>
       <div className="flex row justify-around items-center my-16">
         <p className="text-2xl font-bold">Interested in investing or partnering with Banyan?</p>
-        <button className="inline-block text-2xl font-bold px-8 my-16 border-2 p-4 border-green rounded-xl hover:bg-green transition">Get in touch</button>
+        <a href="mailto:contact@banyan.computer"><button className="inline-block text-2xl font-bold px-8 my-16 border-2 p-4 border-green rounded-xl hover:bg-green transition">Get in touch</button></a>
       </div>
       <div className="text-center">
         <a href="https://twitter.com/BanyanComputer"><i class="la-2x lab la-twitter hover:text-green"></i></a>
-        <a href="https://github.com/saintceliac/banyan.computer"><i class="la-2x lab la-github hover:text-green"></i></a>
+        <a href="https://github.com/banyancomputer"><i class="la-2x lab la-github hover:text-green"></i></a>
       </div>
       </Container>
   )

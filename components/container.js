@@ -11,7 +11,7 @@ export default function Container({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <div className="container px-8 md:px-0 mx-auto mb-16 text-black text-lg relative bg-transparent min-h-screen">
+      <div className="container px-8 xl:px-0 mx-auto mb-16 text-black text-lg relative bg-transparent min-h-screen">
         {children}
       </div>
       {/* <Footer /> */}
