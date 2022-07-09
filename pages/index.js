@@ -1,48 +1,70 @@
-import Container from '../components/container'
-import 'line-awesome/dist/line-awesome/css/line-awesome.min.css'
-import Image from 'next/image'
+import Container from "../components/container";
+// import 'line-awesome/dist/line-awesome/css/line-awesome.min.css'
+import Image from "next/image";
 
 export default function Home() {
   return (
     <Container>
-      <div className="rounded-xl p-8 flex justify-between flex-col text-white relative drop-shadow-lg bg-blend-darken mb-32" style={{ background: "rgba(0,0,0,0.25) url('/banyan.jpg') center/cover" }}>
-        <p className="text-4xl lg:text-6xl mb-12 flex-shrink-0 z-20">Permanent storage, <span className="underline decoration-purple">unchained</span>.</p>
-        <p className="text-xl mt-64 max-w-prose z-20">An on-chain broker that stores files to the distributed cloud from any chain you want, under incentives to <span className="text-purple">make them last forever</span>.</p>
+      {/* Hero */}
+      <div className="w-full flex flex-col space-y-16 justify-start">
+        <div className="flex space-x-8">
+          <h1 className="text-8xl tracking-tighter shrink-0">
+            Next-gen storage.
+            <br />
+            Familiar usability.
+          </h1>
+          <div className="flex flex-col space-y-4 max-w-md text-green">
+            <p>
+              Why choose between cheap decentralized storage and simplicity when
+              you can have both.
+            </p>
+            <p className="uppercase border rounded-xl w-fit px-2 font-head text-sm py-1">
+              → Get in touch
+            </p>
+          </div>
+        </div>
+        <img src="/hero.png" />
       </div>
-      <h2>Fund the preservation of files, alone or with others.</h2>
-      <div className="flex flex-col lg:flex-row justify-between mt-16 mb-32">
-        <p className="w-full pb-8 lg:pb-0 lg:pr-12 text-justify">Place assets into a Banyan DAO-controlled trust contract for that file and provide a copy of the files.</p>
-        <p className="w-full pb-8 lg:pb-0 lg:pr-12 text-justify">Banyan DAO puts extra assets under management, in a combination of yield-bearing stablecoin strategies for low-risk returns and FIL/BTC perpetuals to hedge against large crypto market moves. This gets the most storage for your money.</p>
-        <p className="w-full text-justify">Banyan DAO posts (and annually renews) staked time-release bounty piñata contracts. By doing this, we incentivize upload by third parties to reputable Filecoin service providers and IPFS pinning services. Don&apos;t fret about your storage as long as the trust has money.</p>
+      <div className="py-16">Supported by</div>
+      {/* Why? */}
+      <div className="flex flex-col py-16" id="why">
+        <h2 className="uppercase text-4xl text-center">Why Banyan?</h2>
+        <div className="flex flex-col lg:flex-row lg:space-x-4 lg:space-y-0 space-y-4 py-16">
+          <div className="p-4 basis-1/3 border border-blue flex flex-col justify-between">
+            <h3 className="font-sans">Stability</h3>
+            <p className="text-sm pt-8">
+              Your data is stored for ages across several providers. Even if
+              something happens to one of them, the others will back it up.
+            </p>
+          </div>
+          <div className="p-4 basis-1/3 border border-blue flex flex-col justify-between">
+            <h3 className="font-sans">Privacy</h3>
+            <p className="text-sm">
+              No government or corporation can censor your data if it's stored
+              decentrally.
+            </p>
+          </div>
+          <div className="p-4 basis-1/3 border border-blue flex flex-col justify-between">
+            <h3 className="font-sans">Flexibility</h3>
+            <p className="text-sm">
+              Does your data require specific storage conditions? We will fulfil
+              them.
+            </p>
+          </div>
+        </div>
       </div>
-      <Image src="/diagram2.png" width="1280" height="640"/>
-      <h2>Current solutions...</h2>
-      <div className="flex flex-col lg:flex-row justify-between mt-16 mb-32">
-        <p className="w-full pb-8 lg:pb-0 lg:pr-12 text-justify"><b>Expire</b>, and require regular interaction for renewal, without adapting long-term storage funding strategies to the latest market conditions.</p>
-        <p className="w-full pb-8 lg:pb-0 lg:pr-12 text-justify"><b>Are hard to verify</b> or contractually interact with from other chains.</p>
-        <p className="w-full text-justify"><b>Are expensive</b>, and promise things they can&apos;t necessarily provide. We use Filecoin service providers to provide strong storage deal guarantees in the short-term (one year) with active market management to provide for the long-term.</p>
+      {/* How it works */}
+      <div className="flex flex-col py-16 space-y-16" id="how">
+        <h2 className="uppercase text-4xl text-center">How it works</h2>
+        <img src="/diagram.png" className="block" />
       </div>
-      <h2>Investors and partnerships</h2>
-      <p className="text-center">Building on...</p>
-      <div className="flex row justify-between my-16 mx-auto w-full max-w-prose">
-        <Image className="max-h-24" src="/filecoin.svg" height="96" width="96"/>
-        <Image className="max-h-24" src="/ipfs.svg" height="96" width="96"/>
-        <Image className="max-h-24" src="/yfi.svg" height="96" width="96"/>
+      {/* Goal */}
+      <div className="flex flex-col py-16 space-y-16" id="goal">
+        <h3 className="text-6xl font-normal text-center tracking-tighter">
+          Our goal is to make information much more durable so it will
+          facilitate humanity's progress.
+        </h3>
       </div>
-      <div className="flex row justify-between my-16 mx-auto w-full max-w-prose">
-
-        <Image className="max-h-24" src="/compound.svg"height="96" width="96"/>
-        <Image className="max-h-24" src="/dydx.svg" height="96" width="96"/>
-        <Image className="max-h-24" src="/chainlink.svg" height="96" width="96"/>
-      </div>
-      <div className="flex row justify-around items-center my-16">
-        <p className="text-2xl font-bold">Interested in investing or partnering with Banyan?</p>
-        <a href="mailto:contact@banyan.computer"><button className="inline-block text-2xl font-bold px-8 my-16 border-2 p-4 border-green rounded-xl hover:bg-green transition">Get in touch</button></a>
-      </div>
-      <div className="text-center">
-        <a href="https://twitter.com/BanyanComputer"><i className="la-2x lab la-twitter hover:text-green"></i></a>
-        <a href="https://github.com/banyancomputer"><i className="la-2x lab la-github hover:text-green"></i></a>
-      </div>
-      </Container>
-  )
+    </Container>
+  );
 }
