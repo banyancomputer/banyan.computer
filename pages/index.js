@@ -40,8 +40,8 @@ export default function Home() {
           <div className="p-4 basis-1/3 border border-blue flex flex-col justify-between">
             <h3 className="font-sans">Privacy</h3>
             <p className="text-sm">
-              No government or corporation can censor your data if it's stored
-              decentrally.
+              No government or corporation can censor your data if it&apos;s
+              stored decentrally.
             </p>
           </div>
           <div className="p-4 basis-1/3 border border-blue flex flex-col justify-between">
@@ -62,7 +62,7 @@ export default function Home() {
       <div className="flex flex-col py-16 space-y-16" id="goal">
         <h3 className="text-6xl font-normal text-center tracking-tighter">
           Our goal is to make information much more durable so it will
-          facilitate humanity's progress.
+          facilitate humanity&apos;s progress.
         </h3>
       </div>
     </Container>
