@@ -155,10 +155,38 @@ export default function Home() {
           Learn more and become an early user
         </h2>
         <p>Join our newsletter to keep in touch.</p>
-        {/* TODO */}
-        <a href="https://computer.us12.list-manage.com/subscribe/post?u=d431049d77a6d7b2b5c94902c&amp;id=0899420cf6">
-          Stay in touch
-        </a>
+        <form
+          action="https://computer.us12.list-manage.com/subscribe/post?u=d431049d77a6d7b2b5c94902c&amp;id=0899420cf6"
+          method="post"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          className="max-w-screen-sm flex w-full"
+          target="_blank"
+          noValidate
+        >
+          <div
+            className="input-group flex items-center justify-center w-full"
+            id="mc_embed_signup_scroll"
+          >
+            <div className="mc-field-group flex items-center justify-center h-full w-full">
+              <input
+                className={`appearance-none outline-none border-2 px-3 flex items-center text-center justify-center h-16 rounded-full bg-black grow`}
+                type="email"
+                name="EMAIL"
+                id="mce-EMAIL"
+                placeholder="Email"
+              />
+              <button
+                id="mc-embedded-subscribe"
+                className="bg-blue hover:bg-green hover:text-black text-white py-4 px-5"
+                type="submit"
+                name="subscribe"
+              >
+                Stay in touch
+              </button>
+            </div>
+          </div>
+        </form>
       </div>
     </Container>
   );
