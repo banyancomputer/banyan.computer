@@ -12,7 +12,7 @@ export default function Tag({
           primary
             ? "hover:bg-green bg-gray text-black"
             : "hover:text-green bg-black text-gray"
-        } uppercase border rounded-xl px-3 py-1`}
+        } uppercase border rounded-[90px] px-3 py-1 leading-8`}
       >
         {text}
       </a>
