@@ -8,7 +8,7 @@ export default function Tag({
   return (
     <Link href={href}>
       <a
-        className={`${className}${
+        className={`${className} ${
           primary
             ? "hover:bg-green bg-gray text-black"
             : "hover:text-green bg-black text-gray"
