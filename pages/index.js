@@ -98,8 +98,8 @@ export default function Home() {
               UChicago graduate with majors in Economics and Sociology.
               Contributed to the social startup LiftUp. She has experience in
               portfolio management, including alternative investments, at
-              Advocate Aurora Health's $18 bln + fund, global compliance, and
-              investment banking at Goldman Sachs, worked with PrimeDAO.
+              Advocate Aurora Health&apos;s $18 bln + fund, global compliance,
+              and investment banking at Goldman Sachs, worked with PrimeDAO.
             </p>
           </div>
         </div>
