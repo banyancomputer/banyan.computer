@@ -21,7 +21,7 @@ export default function Header() {
           }
         />
       </div>
-      <img src="/box.svg" />
+      <img src="/box.svg" className="transform -scale-x-100" />
     </div>
   );
 }

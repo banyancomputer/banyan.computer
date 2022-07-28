@@ -1,3 +1,3 @@
 <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1" y="1" width="34" height="34" stroke="#AABDC6" stroke-width="2"/>
+<path d="M1 35V2.41421L33.5858 35H1ZM35 1V33.5858L2.41421 1H35Z" stroke="#AABDC6" stroke-width="3"/>
 </svg>

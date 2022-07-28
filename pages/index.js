@@ -21,7 +21,7 @@ export default function Home() {
         </h2>
         <p className="max-w-[39ch] text-center">
           Banyan aggregates storage providers and introduces simple
-          cryptoeconomic incentives to make data worth storing.
+          cryptoeconomic incentives to make data worth storing in the web3 era.
         </p>
         <div className="py-4 w-full border-y font-head flex space-x-4 items-center">
           <p className="shrink-0 font-head uppercase">Supported by</p>
@@ -44,23 +44,24 @@ export default function Home() {
         </h2>
         <div className="flex flex-col lg:flex-row lg:space-x-4 lg:space-y-0 space-y-4 py-16">
           <div className="p-4 basis-1/3 border flex flex-col space-y-16 justify-between">
+            <h3 className="font-sans text-3xl font-bold">Security</h3>
+            <p className="h-[50%]">
+              The safety of decentralized storage with exceptional
+              censorship-resistant privacy features.
+            </p>
+          </div>
+          <div className="p-4 basis-1/3 border flex flex-col space-y-16 justify-between">
+            <h3 className="font-sans text-3xl font-bold">Longevity</h3>
+            <p className="h-[50%]">
+              We incentivize IPFS paid on chain to ensure your data will be
+              stored safely as long as you want.
+            </p>
+          </div>
+          <div className="p-4 basis-1/3 border flex flex-col space-y-16 justify-between">
             <h3 className="font-sans text-3xl font-bold">User-friendliness</h3>
             <p className="h-[50%]">
               Effortless advanced file management features with our web
-              interface.
-            </p>
-          </div>
-          <div className="p-4 basis-1/3 border flex flex-col space-y-16 justify-between">
-            <h3 className="font-sans text-3xl font-bold">Security</h3>
-            <p className="h-[50%]">
-              The safety of decentralized storage with versioning and privacy
-              features to rival Amazon S3.
-            </p>
-          </div>
-          <div className="p-4 basis-1/3 border flex flex-col space-y-16 justify-between">
-            <h3 className="font-sans text-3xl font-bold">Perpetual Storage</h3>
-            <p className="h-[50%]">
-              The incentives to make it last as long as you want.
+              interface and API.
             </p>
           </div>
         </div>
@@ -87,11 +88,12 @@ export default function Home() {
               <p className="font-sans font-bold text-blue">CEO/CTO</p>
             </div>
             <p>
-              UChicago graduate with a Computer Science major. Interned at
-              Dropbox and Jane Street, worked full-time at Protocol Labs as a
-              Filecoin runtime engineer and Trail of Bits as a cryptography
-              auditor and researcher, contributed to several popular Defi and
-              crypto projects as a freelancer during and after Defi summer.
+              Claudia worked full-time at Protocol Labs as a Filecoin runtime
+              engineer and Trail of Bits as a cryptography auditor and
+              researcher, interned at Dropbox and Jane Street, contributed to
+              several Defi and crypto projects as a freelancer during and after
+              Defi summer. She studied Computer Science at The University of
+              Chicago.
             </p>
           </div>
           <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl md:rounded-t-none md:rounded-tr-none p-4 flex justify-between flex-col space-y-16">
@@ -100,49 +102,108 @@ export default function Home() {
               <p className="font-sans font-bold text-blue">COO</p>
             </div>
             <p>
-              UChicago graduate with majors in Economics and Sociology.
-              Contributed to the social startup LiftUp. She has experience in
-              portfolio management, including alternative investments, at
-              Advocate Aurora Health&apos;s $18 bln + fund, global compliance,
-              and investment banking at Goldman Sachs, worked with PrimeDAO.
+              Maya has experience in portfolio management, including alternative
+              investments, at Advocate Aurora Health&apos;s $18 bln + fund,
+              global compliance, and investment banking at Goldman Sachs. She
+              worked with PrimeDAO and contributed to LiftUp. Studied Economics
+              and Sociology at The University of Chicago.
             </p>
           </div>
         </div>
         {/* Middle row */}
         <div className="flex flex-col md:flex-row min-w-0 w-full md:space-x-[3px] md:mb-[3px]">
-          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl p-4 flex flex-col basis-1/3 mb-[1px] md:mb-0">
-            <h3 className="font-sans text-3xl font-bold">Olive Gardner</h3>
-            <p className="font-sans font-bold text-blue">Operations Manager</p>
-          </div>
-          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl p-4 flex flex-col basis-1/3 mb-[1px] md:mb-0">
-            <h3 className="font-sans text-3xl font-bold">Vitaly Gachkovsky</h3>
-            <p className="font-sans font-bold text-blue">
-              Head of Design and Marketing
+          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl p-4 flex flex-col basis-1/3 mb-[1px] md:mb-0 space-y-16">
+            <div>
+              <h3 className="font-sans text-3xl font-bold">Olive Gardner</h3>
+              <p className="font-sans font-bold text-blue">
+                Operations Manager
+              </p>
+            </div>
+            <p>
+              Olive studied Philosophy and Public Policy at The University of
+              Chicago.
             </p>
           </div>
-          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl p-4 flex flex-col basis-1/3 mb-[1px] md:mb-0">
-            <h3 className="font-sans text-3xl font-bold">Ita Caroline</h3>
-            <p className="font-sans font-bold text-blue">
-              Lead Product Manager
+          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl p-4 flex flex-col basis-1/3 mb-[1px] md:mb-0 space-y-16">
+            <div>
+              <h3 className="font-sans text-3xl font-bold">
+                Vitaly Gachkovsky
+              </h3>
+              <p className="font-sans font-bold text-blue">
+                Head of Design and Marketing
+              </p>
+            </div>
+            <p>
+              Vitaly was a Content Producer at{" "}
+              <a href="https://w1d1.com">W1D1</a> and the Art director at Svoimi
+              Slovami. He studied Design and Programming at HSE Art and Design
+              School.
+            </p>
+          </div>
+          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl p-4 flex flex-col basis-1/3 mb-[1px] md:mb-0 space-y-16">
+            <div>
+              <h3 className="font-sans text-3xl font-bold">Ita Caroline</h3>
+              <p className="font-sans font-bold text-blue">
+                Lead Product Manager
+              </p>
+            </div>
+            <p>
+              Ita worked as a Project Manager at Tempus Labs on{" "}
+              <a href="https://www.tempus.com/news/pr/tempus-submits-pma-application-to-the-fda-for-its-xt-onco-assay/">
+                xT-Onco
+              </a>{" "}
+              and Algos Team. She studied Economics at The University of
+              Chicago.
             </p>
           </div>
         </div>
         {/* Bottom row */}
         <div className="flex flex-col md:flex-row min-w-0 w-full mb-4 md:space-x-[3px]">
-          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] md:rounded-bl-none rounded-xl p-4 flex flex-col basis-1/3 mb-[1px] md:mb-0">
-            <h3 className="font-sans text-3xl font-bold">Alex Miller</h3>
-            <p className="font-sans font-bold text-blue">Software Developer</p>
+          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] md:rounded-bl-none rounded-xl p-4 flex flex-col basis-1/3 mb-[1px] md:mb-0 space-y-16">
+            <div>
+              <h3 className="font-sans text-3xl font-bold">Alex Miller</h3>
+              <p className="font-sans font-bold text-blue">
+                Software Developer
+              </p>
+            </div>
+            <p>
+              Alex was a Software Developer at{" "}
+              <a href="https://arxiv.org/abs/2112.09618">UCIRC</a> and a
+              Full-Stack Intern at{" "}
+              <a href="https://www.datamola.com">Datamola</a>. He graduated
+              Computer Science at The University of Chicago.
+            </p>
           </div>
-          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl p-4 flex flex-col basis-1/3 mb-[1px] md:mb-0">
-            <h3 className="font-sans text-3xl font-bold">Jonah Kaye</h3>
-            <p className="font-sans font-bold text-blue">Engineer</p>
+          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl p-4 flex flex-col basis-1/3 mb-[1px] md:mb-0 space-y-16">
+            <div>
+              <h3 className="font-sans text-3xl font-bold">Jonah Kaye</h3>
+              <p className="font-sans font-bold text-blue">
+                Software Developer
+              </p>
+            </div>
+            <p></p>
           </div>
-          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl md:rounded-br-none p-4 flex flex-col basis-1/3">
-            <h3 className="font-sans text-3xl font-bold">Marco Jardim</h3>
-            <p className="font-sans font-bold text-blue">Software Developer</p>
+          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl md:rounded-br-none p-4 flex flex-col basis-1/3 space-y-16">
+            <div>
+              <h3 className="font-sans text-3xl font-bold">Marco Jardim</h3>
+              <p className="font-sans font-bold text-blue">
+                Software Developer
+              </p>
+            </div>
+            <p>
+              Marco worked at Blockchain Studio,{" "}
+              <a href="https://kondux.io">Kondux.io</a>, and{" "}
+              <a href="https://futster.io">Futster.io</a>. Studied Computer
+              Science at The University of Rio de Janeiro and MCs Digital
+              Currencies at The University of Nicosia.
+            </p>
           </div>
         </div>
-        <Button href="" text="Join the team!" primary />
+        <Button
+          href="https://banyan-storage-inc.breezy.hr"
+          text="Join the team!"
+          primary
+        />
       </div>
       {/* News */}
       {/* <div id="news" className="flex flex-col pt-32">
