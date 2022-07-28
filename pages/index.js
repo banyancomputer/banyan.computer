@@ -25,8 +25,8 @@ export default function Home() {
         </p>
         <div className="py-4 w-full border-y font-head flex space-x-4 items-center">
           <p className="shrink-0 font-head uppercase">Supported by</p>
-          <Marquee gradientColor={[11, 14, 18]}>
-            <div className="flex space-x-36 items-center pr-36">
+          <Marquee speed={10} gradientColor={[11, 14, 18]}>
+            <div className="flex space-x-16 md:space-x-36 items-center pr-36">
               <img className="h-[44px]" src="/protocol-labs-logo-white.svg" />
               <span className="block">Zee Prime Capital</span>
               <span>ySprout</span>
@@ -39,7 +39,7 @@ export default function Home() {
       </div>
       {/* Why Banyan */}
       <div className="my-24" id="why">
-        <h2 className="text-center text-blue text-7xl font-bold font-head uppercase tracking-tighter">
+        <h2 className="text-center text-blue text-4xl md:text-7xl font-bold font-head uppercase tracking-tighter">
           Why Banyan
         </h2>
         <div className="flex flex-col lg:flex-row lg:space-x-4 lg:space-y-0 space-y-4 py-16">
@@ -70,14 +70,15 @@ export default function Home() {
       <img className="my-24" src="/goal.png" />
       {/* How it works */}
       <div className="flex flex-col py-16 space-y-16" id="how">
-        <h2 className="text-center text-blue text-7xl font-bold font-head uppercase tracking-tighter">
+        <h2 className="text-center text-blue text-4xl md:text-7xl font-bold font-head uppercase tracking-tighter">
           How it works
         </h2>
-        <img src="/diagram.svg" className="block" />
+        <img src="/diagram_mobile.svg" className="block md:hidden" />
+        <img src="/diagram.svg" className="hidden md:block" />
       </div>
       {/* Team */}
       <div className="flex flex-col py-16 w-full" id="team">
-        <h2 className="text-center text-blue text-7xl font-bold font-head uppercase tracking-tighter mb-16">
+        <h2 className="text-center text-blue text-4xl md:text-7xl font-bold font-head uppercase tracking-tighter mb-16">
           Our Team
         </h2>
         {/* Top row */}
@@ -181,7 +182,10 @@ export default function Home() {
                 Software Developer
               </p>
             </div>
-            <p></p>
+            <p>
+              Jonah studied Computer Science and Philosophy at The University of
+              Chicago.
+            </p>
           </div>
           <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl md:rounded-br-none p-4 flex flex-col basis-1/3 space-y-16">
             <div>
