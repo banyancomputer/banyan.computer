@@ -10,11 +10,15 @@ export default function Home() {
       <div className="flex flex-col items-center space-y-8">
         <div className="w-full">
           <img
-            className="w-full border-t md:border-t-0 border-b pb-5 pt-5 md:pt-0"
+            className="hidden md:block w-full border-t md:border-t-0 border-b pb-5 pt-5 md:pt-0"
+            src="/logo_thin.svg"
+          />
+          <img
+            className="block md:hidden w-full border-t md:border-t-0 border-b pb-5 pt-5 md:pt-0"
             src="/logo.svg"
           />
         </div>
-        <h2 className="font-bold text-blue font-body text-[40px] md:text-8xl tracking-tighter text-center">
+        <h2 className="font-bold text-blue font-body text-[40px] md:text-8xl tracking-tighter leading-[0.85] text-center">
           The marketplace
           <br />
           for trustless storage
@@ -25,10 +29,19 @@ export default function Home() {
         </p>
         <div className="py-4 w-full border-y font-head flex space-x-4 items-center">
           <p className="shrink-0 font-head uppercase">Supported by</p>
-          <Marquee speed={10} gradientColor={[11, 14, 18]}>
-            <div className="flex space-x-16 md:space-x-36 items-center pr-36">
+          <Marquee speed={43} gradientColor={[11, 14, 18]}>
+            <div className="flex space-x-16 items-center">
+              <img
+                className="pl-16 h-[44px]"
+                src="/protocol-labs-logo-white.svg"
+              />
+              <span className="block shrink-0">Zee Prime Capital</span>
+              <span>ySprout</span>
+              <img className="h-[38px]" src="/chainlink.svg" />
+              <img className="h-3" src="/hypersphere.svg" />
+              <img className="h-[44px]" src="/polychain.svg" />
               <img className="h-[44px]" src="/protocol-labs-logo-white.svg" />
-              <span className="block">Zee Prime Capital</span>
+              <span className="block shrink-0">Zee Prime Capital</span>
               <span>ySprout</span>
               <img className="h-[38px]" src="/chainlink.svg" />
               <img className="h-3" src="/hypersphere.svg" />
@@ -67,7 +80,8 @@ export default function Home() {
         </div>
       </div>
       {/* Goal */}
-      <img className="my-24" src="/goal.png" />
+      <img className="my-24 block md:hidden" src="/goal_mobile.png" />
+      <img className="my-24 hidden md:block" src="/goal.png" />
       {/* How it works */}
       <div className="flex flex-col py-16 space-y-16" id="how">
         <h2 className="text-center text-blue text-4xl md:text-7xl font-bold font-head uppercase tracking-tighter">
@@ -218,9 +232,9 @@ export default function Home() {
       {/* Newsletter */}
       <div
         id="newsletter"
-        className="flex flex-col pt-32 justify-center items-center space-y-12"
+        className="flex flex-col pt-32 justify-center items-center space-y-8"
       >
-        <h2 className="font-bold text-blue font-body text-[40px] md:text-8xl tracking-tighter max-w-[16ch] text-center">
+        <h2 className="font-semibold text-blue font-body text-[40px] md:text-8xl tracking-tighter max-w-[9ch] md:max-w-[15ch] text-center leading-[0.85]">
           Learn more and become an early user
         </h2>
         <p>Join our newsletter to keep in touch.</p>

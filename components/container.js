@@ -11,7 +11,7 @@ export default function Container({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <div className="px-5 mx-auto -mb-8 pb-16 text-gray text-lg relative bg-black min-h-screen border-gray border-b rounded-b-[2rem]">
+      <div className="px-5 mx-auto -mb-8 pb-16 text-gray text-lg relative bg-black min-h-screen border-gray border-b rounded-b-[16px] md:rounded-b-[30px]">
         {children}
       </div>
       <Footer />
