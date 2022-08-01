@@ -114,7 +114,7 @@ export default function Home() {
           <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl md:rounded-t-none md:rounded-tr-none p-4 flex justify-start flex-col space-y-16">
             <div>
               <h3 className="font-sans text-3xl font-bold">Maya Krasovsky</h3>
-              <p className="font-sans font-bold text-blue">COO</p>
+              <p className="font-sans font-bold text-blue">COO/CFO</p>
             </div>
             <p>
               Maya has experience in portfolio management, including alternative
