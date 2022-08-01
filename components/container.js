@@ -1,6 +1,6 @@
-import Head from 'next/head';
-import Header from './header';
-import Footer from './footer';
+import Head from "next/head";
+import Header from "./header";
+import Footer from "./footer";
 
 export default function Container({ children }) {
   return (
@@ -11,10 +11,10 @@ export default function Container({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <div className="container px-8 xl:px-0 mx-auto mb-16 text-black text-lg relative bg-transparent min-h-screen">
+      <div className="px-5 mx-auto -mb-8 pb-16 text-gray text-lg relative bg-black min-h-screen border-gray border-b rounded-b-[16px] md:rounded-b-[30px]">
         {children}
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

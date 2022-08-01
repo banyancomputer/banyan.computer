@@ -5,19 +5,21 @@ module.exports = {
   ],
   theme: {
     colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      black: "#000000",
-      white: '#ffffff',
-      blue: "#6D91DE",
-      green: '#78E894',
-      purple: "#B7ABFF"
+      transparent: "transparent",
+      current: "currentColor",
+      black: "#0B0E12",
+      white: "#ffffff",
+      lightgray: "#EDF4F7",
+      gray: "#AABDC6",
+      blue: "#2B6DF3",
+      navy: "#101e28",
+      green: "#CCEB4C",
     },
     fontFamily: {
-      head: "'IBM Plex Sans', sans-serif"
+      head: "Roboto Condensed, sans-serif",
+      body: "Inter, sans-serif",
     },
-    extend: {
-    },
+    extend: {},
   },
   plugins: [],
-}
+};
