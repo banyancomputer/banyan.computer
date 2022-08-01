@@ -97,7 +97,7 @@ export default function Home() {
         </h2>
         {/* Top row */}
         <div className="flex flex-col md:flex-row md:space-x-[3px] mb-[1px] md:mb-[3px]">
-          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] shadow-gray rounded-xl md:rounded-t-none md:rounded-tl-none p-4 flex justify-between flex-col space-y-16 mb-[1px] md:mb-0">
+          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] shadow-gray rounded-xl md:rounded-t-none md:rounded-tl-none p-4 flex justify-start flex-col space-y-16 mb-[1px] md:mb-0">
             <div>
               <h3 className="font-sans text-3xl font-bold">Claudia Richoux</h3>
               <p className="font-sans font-bold text-blue">CEO/CTO</p>
@@ -111,7 +111,7 @@ export default function Home() {
               Chicago.
             </p>
           </div>
-          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl md:rounded-t-none md:rounded-tr-none p-4 flex justify-between flex-col space-y-16">
+          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl md:rounded-t-none md:rounded-tr-none p-4 flex justify-start flex-col space-y-16">
             <div>
               <h3 className="font-sans text-3xl font-bold">Maya Krasovsky</h3>
               <p className="font-sans font-bold text-blue">COO</p>
@@ -127,7 +127,7 @@ export default function Home() {
         </div>
         {/* Middle row */}
         <div className="flex flex-col md:flex-row min-w-0 w-full md:space-x-[3px] md:mb-[3px]">
-          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl p-4 flex flex-col basis-1/3 mb-[1px] md:mb-0 space-y-16">
+          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl p-4 flex flex-col justify-start basis-1/3 mb-[1px] md:mb-0 space-y-8">
             <div>
               <h3 className="font-sans text-3xl font-bold">Olive Gardner</h3>
               <p className="font-sans font-bold text-blue">
@@ -139,7 +139,7 @@ export default function Home() {
               Chicago.
             </p>
           </div>
-          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl p-4 flex flex-col basis-1/3 mb-[1px] md:mb-0 space-y-16">
+          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl p-4 flex flex-col justify-start basis-1/3 mb-[1px] md:mb-0 space-y-8">
             <div>
               <h3 className="font-sans text-3xl font-bold">
                 Vitaly Gachkovsky
@@ -155,7 +155,7 @@ export default function Home() {
               School.
             </p>
           </div>
-          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl p-4 flex flex-col basis-1/3 mb-[1px] md:mb-0 space-y-16">
+          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl p-4 flex flex-col justify-start basis-1/3 mb-[1px] md:mb-0 space-y-8">
             <div>
               <h3 className="font-sans text-3xl font-bold">Ita Caroline</h3>
               <p className="font-sans font-bold text-blue">
@@ -174,7 +174,7 @@ export default function Home() {
         </div>
         {/* Bottom row */}
         <div className="flex flex-col md:flex-row min-w-0 w-full mb-4 md:space-x-[3px]">
-          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] md:rounded-bl-none rounded-xl p-4 flex flex-col basis-1/3 mb-[1px] md:mb-0 space-y-16">
+          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] md:rounded-bl-none rounded-xl p-4 flex flex-col basis-1/3 mb-[1px] md:mb-0 space-y-8">
             <div>
               <h3 className="font-sans text-3xl font-bold">Alex Miller</h3>
               <p className="font-sans font-bold text-blue">
@@ -189,7 +189,7 @@ export default function Home() {
               Computer Science at The University of Chicago.
             </p>
           </div>
-          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl p-4 flex flex-col basis-1/3 mb-[1px] md:mb-0 space-y-16">
+          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl p-4 flex flex-col basis-1/3 mb-[1px] md:mb-0 space-y-8">
             <div>
               <h3 className="font-sans text-3xl font-bold">Jonah Kaye</h3>
               <p className="font-sans font-bold text-blue">
@@ -201,7 +201,7 @@ export default function Home() {
               Chicago.
             </p>
           </div>
-          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl md:rounded-br-none p-4 flex flex-col basis-1/3 space-y-16">
+          <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl md:rounded-br-none p-4 flex flex-col basis-1/3 space-y-8">
             <div>
               <h3 className="font-sans text-3xl font-bold">Marco Jardim</h3>
               <p className="font-sans font-bold text-blue">
