@@ -22,7 +22,7 @@ a {
 }
 
 h1 {
-  @apply font-head text-5xl text-green;
+  @apply font-head text-5xl text-green leading-[0.85];
 }
 
 h2 {

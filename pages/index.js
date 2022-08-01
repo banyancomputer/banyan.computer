@@ -51,11 +51,11 @@ export default function Home() {
         </div>
       </div>
       {/* Why Banyan */}
-      <div className="my-24" id="why">
-        <h2 className="text-center text-blue text-4xl md:text-7xl font-bold font-head uppercase tracking-tighter">
+      <div className="my-40 md:my-60" id="why">
+        <h2 className="text-center text-blue text-4xl md:text-7xl font-bold font-head uppercase tracking-tighter mb-12">
           Why Banyan
         </h2>
-        <div className="flex flex-col lg:flex-row lg:space-x-4 lg:space-y-0 space-y-4 py-16">
+        <div className="flex flex-col lg:flex-row lg:space-x-4 lg:space-y-0 space-y-4 pb-16">
           <div className="p-4 basis-1/3 border flex flex-col space-y-16 justify-between">
             <h3 className="font-sans text-3xl font-bold">Security</h3>
             <p className="h-[50%]">
@@ -80,10 +80,10 @@ export default function Home() {
         </div>
       </div>
       {/* Goal */}
-      <img className="my-24 block md:hidden" src="/goal_mobile.png" />
-      <img className="my-24 hidden md:block" src="/goal.png" />
+      <img className="my-40 md:my-60 block md:hidden" src="/goal_mobile.png" />
+      <img className="my-40 md:my-60 hidden md:block" src="/goal.png" />
       {/* How it works */}
-      <div className="flex flex-col py-16 space-y-16" id="how">
+      <div className="flex flex-col my-40 md:my-60 space-y-12" id="how">
         <h2 className="text-center text-blue text-4xl md:text-7xl font-bold font-head uppercase tracking-tighter">
           How it works
         </h2>
@@ -91,8 +91,8 @@ export default function Home() {
         <img src="/diagram.svg" className="hidden md:block" />
       </div>
       {/* Team */}
-      <div className="flex flex-col py-16 w-full" id="team">
-        <h2 className="text-center text-blue text-4xl md:text-7xl font-bold font-head uppercase tracking-tighter mb-16">
+      <div className="flex flex-col my-40 md:my-60 w-full" id="team">
+        <h2 className="text-center text-blue text-4xl md:text-7xl font-bold font-head uppercase tracking-tighter mb-12">
           Our Team
         </h2>
         {/* Top row */}
@@ -232,7 +232,7 @@ export default function Home() {
       {/* Newsletter */}
       <div
         id="newsletter"
-        className="flex flex-col pt-32 justify-center items-center space-y-8"
+        className="flex flex-col my-40 md:my-60 justify-center items-center space-y-12"
       >
         <h2 className="font-semibold text-blue font-body text-[40px] md:text-8xl tracking-tighter max-w-[9ch] md:max-w-[15ch] text-center leading-[0.85]">
           Learn more and become an early user
