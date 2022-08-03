@@ -33,7 +33,7 @@ export default function Footer() {
             </a>
             <a
               className="md:border-b leading-tight"
-              href="https://twitter.com/banyandotcomputer"
+              href="https://twitter.com/banyancomputer"
             >
               Twitter
             </a>
