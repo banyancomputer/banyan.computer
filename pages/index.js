@@ -150,7 +150,7 @@ export default function Home() {
             </div>
             <p>
               Vitaly was a Content Producer at{" "}
-              <a href="https://w1d1.com">W1D1</a> and the Art director at Svoimi
+              <a href="https://w1d1.com" target="_blank">W1D1</a> and the Art director at Svoimi
               Slovami. He studied Design and Programming at HSE Art and Design
               School.
             </p>
@@ -164,7 +164,7 @@ export default function Home() {
             </div>
             <p>
               Ita worked as a Project Manager at Tempus Labs on{" "}
-              <a href="https://www.tempus.com/news/pr/tempus-submits-pma-application-to-the-fda-for-its-xt-onco-assay/">
+              <a href="https://www.tempus.com/news/pr/tempus-submits-pma-application-to-the-fda-for-its-xt-onco-assay/" target="_blank">
                 xT-Onco
               </a>{" "}
               and Algos Team. She studied Economics at The University of
@@ -183,9 +183,9 @@ export default function Home() {
             </div>
             <p>
               Alex was a Software Developer at{" "}
-              <a href="https://arxiv.org/abs/2112.09618">UCIRC</a> and a
+              <a href="https://arxiv.org/abs/2112.09618" target="_blank">UCIRC</a> and a
               Full-Stack Intern at{" "}
-              <a href="https://www.datamola.com">Datamola</a>. He graduated
+              <a href="https://www.datamola.com" target="_blank">Datamola</a>. He graduated
               Computer Science at The University of Chicago.
             </p>
           </div>
@@ -197,31 +197,21 @@ export default function Home() {
               </p>
             </div>
             <p>
-              Jonah studied Computer Science and Philosophy at The University of
-              Chicago.
+              Jonah worked as a researcher at{" "}
+              <a href="https://lucian.uchicago.edu/blogs/literarynetworks/" target="_blank">Chicago Text Lab</a> and interned at{" "}<a href="https://readcoop.eu/" target="_blank">READ-COOP</a>. He studied Computer Science and Philosophy at The University of Chicago.
             </p>
           </div>
           <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl md:rounded-br-none p-4 flex flex-col basis-1/3 space-y-8">
             <div>
-              <h3 className="font-sans text-3xl font-bold">Marco Jardim</h3>
-              <p className="font-sans font-bold text-blue">
-                Software Developer
-              </p>
+              <h3 className="font-sans text-3xl font-bold">Want to be listed here?</h3>
             </div>
-            <p>
-              Marco worked at Blockchain Studio,{" "}
-              <a href="https://kondux.io">Kondux.io</a>, and{" "}
-              <a href="https://futster.io">Futster.io</a>. Studied Computer
-              Science at The University of Rio de Janeiro and MCs Digital
-              Currencies at The University of Nicosia.
-            </p>
+            <Button
+              href="https://banyan-storage-inc.breezy.hr"
+              text="Join the team!"
+              primary
+            />
           </div>
         </div>
-        <Button
-          href="https://banyan-storage-inc.breezy.hr"
-          text="Join the team!"
-          primary
-        />
       </div>
       {/* News */}
       {/* <div id="news" className="flex flex-col pt-32">

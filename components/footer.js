@@ -10,7 +10,10 @@ export default function Footer() {
         </h3>
         <h3 className="basis-1/3 font-body text-3xl md:text-4xl text-gray tracking-[-0.07em]">
           Get in touch
-          <a href="mailto:info@banyan.computer" className="block text-black">
+          <a
+          href="mailto:info@banyan.computer" 
+          className="block text-black"
+          target="_blank">
             info@banyan.computer
           </a>
         </h3>
@@ -22,24 +25,27 @@ export default function Footer() {
             <a
               className="md:border-b leading-tight"
               href="https://github.com/banyancomputer"
+              target="_blank"
             >
               GitHub
             </a>
             <a
               className="md:border-b leading-tight"
               href="https://banyan-storage-inc.breezy.hr"
+              target="_blank"
             >
               Breezy
             </a>
             <a
               className="md:border-b leading-tight"
               href="https://twitter.com/banyancomputer"
+              target="_blank"
             >
               Twitter
             </a>
           </div>
           <p className="text-gray">
-            © Banyan LLC 2022
+            © Banyan Storage Inc. 2022
             <br />
             2045 W Grand Ave Ste B PMB 98926
             <br />
