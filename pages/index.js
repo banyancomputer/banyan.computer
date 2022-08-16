@@ -150,7 +150,7 @@ export default function Home() {
             </div>
             <p>
               Vitaly was a Content Producer at{" "}
-              <a href="https://w1d1.com" target="_blank">W1D1</a> and the Art director at Svoimi
+              <a href="https://w1d1.com" target="_blank" rel="noreferrer">W1D1</a> and the Art director at Svoimi
               Slovami. He studied Design and Programming at HSE Art and Design
               School.
             </p>
@@ -164,7 +164,7 @@ export default function Home() {
             </div>
             <p>
               Ita worked as a Project Manager at Tempus Labs on{" "}
-              <a href="https://www.tempus.com/news/pr/tempus-submits-pma-application-to-the-fda-for-its-xt-onco-assay/" target="_blank">
+              <a href="https://www.tempus.com/news/pr/tempus-submits-pma-application-to-the-fda-for-its-xt-onco-assay/" target="_blank" rel="noreferrer">
                 xT-Onco
               </a>{" "}
               and Algos Team. She studied Economics at The University of
@@ -183,9 +183,9 @@ export default function Home() {
             </div>
             <p>
               Alex was a Software Developer at{" "}
-              <a href="https://arxiv.org/abs/2112.09618" target="_blank">UCIRC</a> and a
+              <a href="https://arxiv.org/abs/2112.09618" target="_blank" rel="noreferrer">UCIRC</a> and a
               Full-Stack Intern at{" "}
-              <a href="https://www.datamola.com" target="_blank">Datamola</a>. He graduated
+              <a href="https://www.datamola.com" target="_blank" rel="noreferrer">Datamola</a>. He graduated
               Computer Science at The University of Chicago.
             </p>
           </div>
@@ -198,7 +198,7 @@ export default function Home() {
             </div>
             <p>
               Jonah worked as a researcher at{" "}
-              <a href="https://lucian.uchicago.edu/blogs/literarynetworks/" target="_blank">Chicago Text Lab</a> and interned at{" "}<a href="https://readcoop.eu/" target="_blank">READ-COOP</a>. He studied Computer Science and Philosophy at The University of Chicago.
+              <a href="https://lucian.uchicago.edu/blogs/literarynetworks/" target="_blank" rel="noreferrer">Chicago Text Lab</a> and interned at{" "}<a href="https://readcoop.eu/" target="_blank" rel="noreferrer">READ-COOP</a>. He studied Computer Science and Philosophy at The University of Chicago.
             </p>
           </div>
           <div className="shadow-[0_0_0_1px] md:shadow-[0_0_0_2px] rounded-xl md:rounded-br-none p-4 flex flex-col basis-1/3 space-y-8">
@@ -235,6 +235,7 @@ export default function Home() {
           name="mc-embedded-subscribe-form"
           className="max-w-screen-sm flex w-full pb-32"
           target="_blank"
+          rel="noreferrer"
           noValidate
         >
           <div
