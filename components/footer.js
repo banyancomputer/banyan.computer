@@ -11,9 +11,10 @@ export default function Footer() {
         <h3 className="basis-1/3 font-body text-3xl md:text-4xl text-gray tracking-[-0.07em]">
           Get in touch
           <a
-          href="mailto:info@banyan.computer" 
+          href="mailto:info@banyan.computer"
           className="block text-black"
-          target="_blank">
+          target="_blank"
+          rel="noreferrer">
             info@banyan.computer
           </a>
         </h3>
@@ -26,6 +27,7 @@ export default function Footer() {
               className="md:border-b leading-tight"
               href="https://github.com/banyancomputer"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub
             </a>
@@ -33,6 +35,7 @@ export default function Footer() {
               className="md:border-b leading-tight"
               href="https://banyan-storage-inc.breezy.hr"
               target="_blank"
+              rel="noreferrer"
             >
               Breezy
             </a>
@@ -40,6 +43,7 @@ export default function Footer() {
               className="md:border-b leading-tight"
               href="https://twitter.com/banyancomputer"
               target="_blank"
+              rel="noreferrer"
             >
               Twitter
             </a>
