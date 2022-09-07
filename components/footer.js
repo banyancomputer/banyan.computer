@@ -41,7 +41,7 @@ export default function Footer() {
             </a>
             <a
               className="md:border-b leading-tight"
-              href="https://twitter.com/banyancomputer"
+              href="https://twitter.com/BanyanStorage"
               target="_blank"
               rel="noreferrer"
             >
