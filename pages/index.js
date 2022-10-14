@@ -2,10 +2,17 @@ import Container from "../components/container";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
 import Button from "../components/button";
-
-
+import { useEffect } from 'react';
 
 export default function Home() {
+  useEffect(() => {
+      (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+      .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+      n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+      (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+      ml('account', '138328');
+  }, []);
+
   return (
     <Container>
       {/* Hero */}
@@ -230,40 +237,9 @@ export default function Home() {
           Learn more and become an early user
         </h2>
         <p>Join our newsletter to keep in touch.</p>
-        <form
-          action="https://computer.us12.list-manage.com/subscribe/post?u=d431049d77a6d7b2b5c94902c&amp;id=0899420cf6"
-          method="post"
-          id="mc-embedded-subscribe-form"
-          name="mc-embedded-subscribe-form"
-          className="max-w-screen-sm flex w-full pb-32"
-          target="_blank"
-          rel="noreferrer"
-          noValidate
+        <div class="ml-embedded" data-form="fGxfSQ"
         >
-          <div
-            className="input-group flex items-center justify-center w-full"
-            id="mc_embed_signup_scroll"
-          >
-            <div className="mc-field-group flex flex-col md:flex-row items-center justify-center h-full w-full">
-              <input
-                className="w-full md:w-fit appearance-none outline-none border-2 px-3 flex items-center text-center justify-center h-16 rounded-full bg-black grow hover:text-green hover:placeholder-green hover:border-green focus:placeholder-transparent focus:border-green valid:text-green"
-                type="email"
-                name="EMAIL"
-                id="mce-EMAIL"
-                placeholder="Email"
-                required
-              />
-              <button
-                id="mc-embedded-subscribe"
-                className="bg-blue hover:bg-green hover:text-black text-white py-4 px-5 w-full md:w-fit"
-                type="submit"
-                name="subscribe"
-              >
-                Stay in touch
-              </button>
-            </div>
-          </div>
-        </form>
+        </div>
       </div>
     </Container>
   );
