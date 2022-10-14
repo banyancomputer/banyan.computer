@@ -3,6 +3,8 @@ import Image from "next/image";
 import Marquee from "react-fast-marquee";
 import Button from "../components/button";
 
+
+
 export default function Home() {
   return (
     <Container>
