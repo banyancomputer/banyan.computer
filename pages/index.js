@@ -541,12 +541,12 @@ const myHTML = `<style type="text/css">
 }
 
 .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal {
-  width: 70%;
+  width: 75%;
   float: left;
 }
 
 .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal {
-  width: 30%;
+  width: 25%;
   float: left;
 }
 
