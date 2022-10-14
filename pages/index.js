@@ -1129,7 +1129,7 @@ export default function Home() {
           Learn more and become an early user
         </h2>
         <p>Join our newsletter to keep in touch.</p>
-        <div class="ml-embedded" data-form="fGxfSQ"></div>
+        <div className="ml-embedded" data-form="fGxfSQ"></div>
         <div className= "invisible" dangerouslySetInnerHTML={{ __html: myHTML }}/>
       </div>
     </Container>
