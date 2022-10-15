@@ -99,6 +99,14 @@ const myHTML = `<style type="text/css">
   width: 600px;
 }
 
+@media only screen and (max-width: 600px) {
+  #mlb2-1293871.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+    max-width: 900px;
+    width: 300px;
+  }
+}
+
+
 #mlb2-1293871.ml-form-embedContainer .ml-form-align-left {
   text-align: left;
 }
