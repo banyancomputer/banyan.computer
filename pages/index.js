@@ -949,12 +949,14 @@ export default function Home() {
               <img className="h-[38px]" src="/chainlink.svg" />
               <img className="h-3" src="/hypersphere.svg" />
               <img className="h-[44px]" src="/polychain.svg" />
+              <img className="h-[54px]" src="/dao5.svg" />
               <img className="h-[44px]" src="/protocol-labs-logo-white.svg" />
               <span className="block shrink-0">Zee Prime Capital</span>
               <span>ySprout</span>
               <img className="h-[38px]" src="/chainlink.svg" />
               <img className="h-3" src="/hypersphere.svg" />
               <img className="h-[44px]" src="/polychain.svg" />
+              <img className="h-[54px]" src="/dao5.svg" />
             </div>
           </Marquee>
         </div>
